@@ -1,4 +1,4 @@
-# Instrucciones de compilación y ejecución
+# White-phone
 ## Procedimiento de compilación
 > Abrir terminal en el directorio actual
 
