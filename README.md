@@ -1,10 +1,21 @@
-Desde la carpeta principal de la practica
+# Instrucciones de compilación y ejecución
+## Procedimiento de compilación
+> Abrir terminal en el directorio actual
 
-COMPILAR:
+Compilación:
+```shell
 javac src/Cliente/*.java src/Servidor/*.java src/Mensaje/*.java src/Interfaz/*.java src/Utilidades/*.java
+```
 
-EJECUTAR CLIENTE:
+## Procedimiento de ejecución
+> Abrir terminal en el directorio actual
+
+Ejecución del cliente:
+```shell
 java src/Cliente/MainCliente.java ip_cliente ip_servidor puerto_servidor
+```
 
-EJECUTAR SERVIDOR:
+Ejecución del servidor:
+```shell
 java src/Servidor/MainServidor.java ip_servidor puerto_servidor
+```
